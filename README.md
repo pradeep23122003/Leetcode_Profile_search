@@ -2,6 +2,11 @@
 
 A web application that allows users to search for LeetCode profiles, view user statistics, and see the list of solved problems. The application uses HTML, CSS, and JavaScript to create an interactive and user-friendly interface.
 
+## Live Demo
+
+You can view the live version of the project [here](https://pradeep23122003.github.io/Leetcode_Profile_search/).
+
+
 ## Features
 
 - Search for a LeetCode user profile by username.
@@ -55,11 +60,12 @@ View Solved Problems
 
 The list of solved problems will be displayed in a table format.
 
-API Endpoints
+#API Endpoints
 The application uses the following API endpoints:
 
 LeetCode Profile API: https://leetcode-stats-api.herokuapp.com/{username}
 LeetCode Problems API: https://leetcode-problems-api.herokuapp.com/{username} (Please note that this API may not be available due to CORS issues.)
-Known Issues
+
+#Known Issues
 CORS Policy: If you encounter CORS issues when fetching data, you might need to use a CORS proxy or configure the server to allow CORS.
 Avatar Images: If user avatars are not available, a placeholder image is used.
