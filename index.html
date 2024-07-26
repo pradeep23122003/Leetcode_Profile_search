@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Profile Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="search">
+            <img src="./images/leetcode.png" alt="LeetCode Logo">
+            <h2>LEETCODE PROFILE SEARCH</h2>
+            <input type="text" id="username" placeholder="Enter LeetCode username" class="search-input">
+            <button onclick="requestLeetCodeData()" class="search-button">Request Data</button>
+        </div>
+        <div class="profile" id="profile"></div>
+        <div class="repositories" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
